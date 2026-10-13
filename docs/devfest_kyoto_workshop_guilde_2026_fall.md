@@ -293,6 +293,7 @@ Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Programs\Ollama"
 ```
 
 * **Linux**:
+
 ```bash
 sudo systemctl stop ollama
 sudo systemctl disable ollama
