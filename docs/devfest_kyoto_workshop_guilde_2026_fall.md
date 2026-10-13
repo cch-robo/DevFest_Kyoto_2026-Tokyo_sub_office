@@ -82,21 +82,23 @@ _本ドキュメントは、Geminiを使って調査｜生成されたドキュ�
 #### B. アンインストール
 
 * **macOS / Linux**:
-   ```bash
-   rm -rf ~/development/flutter
-   rm -rf ~/.pub-cache ~/.flutter ~/.dart-tool ~/.dart
-   # ~/.zshrc または ~/.bashrc から追加した PATH 行を削除
-   ```
+
+```bash
+rm -rf ~/development/flutter
+rm -rf ~/.pub-cache ~/.flutter ~/.dart-tool ~/.dart
+# ~/.zshrc または ~/.bashrc から追加した PATH 行を削除
+```
 
 * **Windows (PowerShell)**:
-   ```powershell
-   Remove-Item -Recurse -Force "$env:USERPROFILE\development\flutter"
-   Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Pub\Cache"
-   Remove-Item -Recurse -Force "$env:USERPROFILE\.flutter"
-   Remove-Item -Recurse -Force "$env:USERPROFILE\.dart-tool"
-   Remove-Item -Recurse -Force "$env:USERPROFILE\.dart"
-   # 環境変数 Path から flutter\bin を削除
-   ```
+
+```powershell
+Remove-Item -Recurse -Force "$env:USERPROFILE\development\flutter"
+Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Pub\Cache"
+Remove-Item -Recurse -Force "$env:USERPROFILE\.flutter"
+Remove-Item -Recurse -Force "$env:USERPROFILE\.dart-tool"
+Remove-Item -Recurse -Force "$env:USERPROFILE\.dart"
+# 環境変数 Path から flutter\bin を削除
+```
 
 ### 実行ファイル ＆ 設定保管先一覧
 
@@ -135,6 +137,7 @@ flutter doctor
 
 #### A. インストール
 - **macOS / Linux**:
+
 ```bash
 curl -fsSL https://antigravity.google/cli/install.sh | bash
 ```
@@ -142,11 +145,13 @@ curl -fsSL https://antigravity.google/cli/install.sh | bash
 *(Homebrewを利用する場合: `brew install --cask antigravity-cli`)*
 
 * **Windows (PowerShell 推奨)**:
+
 ```powershell
 irm https://antigravity.google/cli/install.ps1 | iex
 ```
 
 * **Windows (コマンドプロンプト)**:
+
 ```cmd
 curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.cmd && del install.cmd
 ```
@@ -161,12 +166,14 @@ curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.
 #### C. アンインストール
 
 * **macOS / Linux**:
+
 ```bash
 rm -f ~/.local/bin/agy
 rm -rf ~/.gemini/antigravity-cli
 ```
 
 * **Windows (PowerShell)**:
+
 ```powershell
 Remove-Item -Recurse -Force "$env:LOCALAPPDATA\agy"
 Remove-Item -Recurse -Force "$env:USERPROFILE\.gemini\antigravity-cli"
@@ -211,11 +218,13 @@ agy --version
 #### A. インストール
 
 * **macOS / Linux (Script)**: 
+
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 * **Windows**:  
+
 ```bash
 irm https://ollama.com/install.ps1 | iex
 ```
@@ -254,7 +263,7 @@ ollama run gemma4:e4b
 
 - **チャット機能は、macOS ｜ Windows ならデスクトップアプリを使うほうが手軽です。**
 
-- CLI チャットモードで利用可能なコマンド  
+* CLI チャットモードで利用可能なコマンド  
   `/clear`: コンテキストクリア  
   `/bye` または `Ctrl + D`: チャット終了  
   `/help`: 利用可能なコマンド一覧  
@@ -274,6 +283,7 @@ gemma4:e4b    c6eb396dbd59    3.9 GB    100% GPU     131072     llamacpp    4 mi
 #### C. アンインストール
 
 * **macOS**:
+
 ```bash
 sudo rm -rf /Applications/Ollama.app
 sudo rm /usr/local/bin/ollama
@@ -286,6 +296,7 @@ rm -rf ~/.ollama
 ```
 
 * **Windows (PowerShell)**:
+
 ```powershell
 # タスクトレイから終了後、通常アンインストールを実行
 Remove-Item -Recurse -Force "$env:USERPROFILE\.ollama"
@@ -396,7 +407,8 @@ option request-timeout 0
 
 #### C. アンインストール
 
-* **macOS / Linux (Homebrew)**:
+* **macOS / Linux (Homebrew)**:  
+
 ```bash
 brew uninstall crush 2>/dev/null || rm -f ~/.local/bin/crush
 
@@ -405,6 +417,7 @@ rm -rf ~/.config/crush ~/.local/share/crush ~/.cache/crush
 ```
 
 * **Windows (WinGet)**:
+
 ```powershell
 winget uninstall charmbracelet.crush --purge
 
