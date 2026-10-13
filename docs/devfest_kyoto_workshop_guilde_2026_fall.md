@@ -336,6 +336,7 @@ curl http://localhost:11434/
 * [Ollama Linux](https://docs.ollama.com/linux)
 * [Ollama Windows](https://docs.ollama.com/windows)
 * [Download Ollama](https://ollama.com/download)
+
 ---
 
 ## 4. Crush CLI
