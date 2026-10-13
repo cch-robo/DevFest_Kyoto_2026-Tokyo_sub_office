@@ -371,7 +371,7 @@ winget install charmbracelet.crush
   - Agent Skills ディレクトリ ⇒ `.agents/skills/` ディレクトリ
   - システム設定 ⇒ `.crushrc` ファイル
 
-- `.crushrc` ファイル例
+- `.crushrc` ファイル例  
 ```bash
 # Add Ollama.
 provider add ollama --type ollama --base-url "http://localhost:11434/v1"
