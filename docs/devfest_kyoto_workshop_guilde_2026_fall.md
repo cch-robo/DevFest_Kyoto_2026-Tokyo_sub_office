@@ -363,11 +363,13 @@ curl http://localhost:11434/
 #### A. インストール
 
 * **macOS / Linux (Homebrew)**:
+
 ```bash
 brew install charmbracelet/tap/crush
 ```
 
 * **Windows (WinGet)**:
+
 ```powershell
 winget install charmbracelet.crush
 ```
@@ -383,7 +385,7 @@ winget install charmbracelet.crush
   - Agent Skills ディレクトリ ⇒ `.agents/skills/` ディレクトリ
   - システム設定 ⇒ `.crushrc` ファイル
 
-* `.crushrc` ファイル例
+* **`.crushrc` ファイル例**
 
 ```bash
 # Add Ollama.
