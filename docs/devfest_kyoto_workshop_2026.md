@@ -545,7 +545,7 @@ Antigravity と同じように、ツールの実行やファイルの変更に�
 
 Ollama を単独で利用するガイドも作りましたので、よろしければ御一読ください。
 
-- Webコンテンツ版: [Ollama ガイド（簡易版）](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Ollama_guide.)
+- Webコンテンツ版: [Ollama ガイド（簡易版）](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Ollama_guide.html)
 
 - リポジトリ版: [Ollama ガイド（簡易版）](./Ollama_guide.md)
 
