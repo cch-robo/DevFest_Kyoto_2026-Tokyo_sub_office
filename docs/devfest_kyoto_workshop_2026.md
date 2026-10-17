@@ -432,8 +432,10 @@ AI に全体設計書と要件仕様書を読ませて、空ワークスペー�
 ### 4. 全体設計書と要件仕様書の全文紹介
 
 - **[AGENTS.md](specification/AGENTS.md) 全文**
+  - Webコンテンツ版: [AGENTS.md](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Antigravity_technik_2026_fall.html)
 
 - **[SPECIFICATION.md](specification/SPECIFICATION.md) 全文**
+  - Webコンテンツ版: [SPECIFICATION.md](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Antigravity_technik_2026_fall.html)
 
 _自然言語でプログラミングさせているようですね。_  
 _これを理解して修正できるのは、エンジニアなのかもしれません。_
@@ -447,7 +449,7 @@ _これを理解して修正できるのは、エンジニアなのかもしれ�
 
 AI コーディングエージェントのテクニックについてまとめましたので参照下さい。
 
-- Webコンテンツ版: [Antigarvity テクニック2026年秋版](./Antigravity_technik_2026_fall.html)
+- Webコンテンツ版: [Antigarvity テクニック2026年秋版](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Antigravity_technik_2026_fall.html)
 
 - リポジトリ版: [Antigarvity テクニック2026年秋版](./Antigravity_technik_2026_fall.md)
 
@@ -543,7 +545,7 @@ Antigravity と同じように、ツールの実行やファイルの変更に�
 
 Ollama を単独で利用するガイドも作りましたので、よろしければ御一読ください。
 
-- Webコンテンツ版: [Ollama ガイド（簡易版）](./Ollama_guide.html)
+- Webコンテンツ版: [Ollama ガイド（簡易版）](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Ollama_guide.)
 
 - リポジトリ版: [Ollama ガイド（簡易版）](./Ollama_guide.md)
 
