@@ -6,4 +6,7 @@ DevFest Kyoto 2026 - 東京出張所 ワークショップのリポジトリで�
 
 - **[AI × Flutter ミニアプリ開発ワークショップ 環境設定ガイド (2026)](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/devfest_kyoto_workshop_guilde_2026_fall.html)**
 
+- **[AI × Flutter ミニアプリ開発ワークショップ コンテンツ](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/devfest_kyoto_workshop_2026.html)**
+
+- **[Antigarvity テクニック2026年秋版](https://cch-robo.github.io/DevFest_Kyoto_2026-Tokyo_sub_office/Antigravity_technik_2026_fall.html)**
 
