@@ -1,0 +1,12 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:handson_2026_breakout/main.dart';
+
+void main() {
+  testWidgets('Breakout game smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
+
+    expect(find.text('BLOCK BREAKER'), findsOneWidget);
+    expect(find.text('GAME START'), findsOneWidget);
+    expect(find.text('SCORE'), findsOneWidget);
+  });
+}

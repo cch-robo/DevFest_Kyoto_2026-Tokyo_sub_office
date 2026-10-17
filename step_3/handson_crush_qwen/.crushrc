@@ -1,0 +1,25 @@
+# Add Ollama.
+# Ollamaプロバイダーの追加 (基本設定)
+provider add ollama --type ollama --base-url "http://localhost:11434/v1"
+
+# Gemma 4専用の推論パラメーター設定 (ループ対策)# OllamaのAPIに直接JSON（extra_body）としてパラメーターを流し込みます
+provider add ollama  --extra-body '{"options": {"temperature": 0.3, "num_predict": 4096, "repeat_penalty": 1.25, "frequency_penalty": 0.15}}'
+
+# Register a model on Ollama.
+model add ollama/gemma4:e4b --name "Gemma4:e4b" --context-window 128000
+model add ollama/qwen3.8:27b --name "Qwen3.8:27b" --context-window 256000
+model add ollama/gemma4:e4b-fix --name "Gemma4:e4b-fix" --context-window 64000
+
+
+# Auto-approve some tools.
+permissions allow view edit
+
+# MCP（Model Context Protocol）ツールの追加
+mcp add dart-mcp-server --command "dart" --args "mcp-server"
+
+# Crushの全体オプション設定
+# Prompt timeout 時間をデフォルトの2分(120)から無制限にする。
+option request-timeout 0
+
+# エージェントが1回のステップで生成できる最大トークン数を安全な値に制限
+# option max-tokens 4096
